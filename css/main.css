@@ -16,8 +16,9 @@
   }
 
   .btn-line:hover {
-    background-color: #eece1a; }
-
+    background-color: #eece1a; 
+  }
+  
   .menu-btn.close {
     transform: rotate(180deg); 
   }
@@ -38,7 +39,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.95;
   visibility: hidden; 
 }
 
@@ -81,9 +82,9 @@
     }
 
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("../img/portrait.jpg");
+      width: 295px;
+      height: 295px;
+      background: url("../img/portrait.PNG");
       border-radius: 50%;
       border: solid 3px #eece1a; 
     }
@@ -110,7 +111,9 @@
     font-weight: 300;
     color: #fff;
     text-decoration: none;
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-out; 
+  }
+
     .menu .nav-link:hover {
       color: #eece1a; 
     }
@@ -136,11 +139,15 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5; }
+  line-height: 1.5; 
+}
+
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover; 
+  }
+
     body#bg-img:after {
       content: '';
       position: absolute;
@@ -171,41 +178,57 @@ h3 {
 
 a {
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none; 
+}
 
 header {
   position: fixed;
   z-index: 2;
-  width: 100%; }
+  width: 100%; 
+}
 
 .text-secondary {
-  color: #eece1a; }
+  color: #eece1a; 
+}
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 60px); }
+  min-height: calc(100vh - 60px); 
+}
+
   main .icons {
-    margin-top: 1rem; }
+    margin-top: 1rem; 
+  }
+
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem; 
+    }
+
       main .icons a:hover {
         color: #eece1a;
-        transition: all 0.5s ease-out; }
+        transition: all 0.5s ease-out; 
+      }
+
   main#home {
-    overflow: hidden; }
+    overflow: hidden; 
+  }
+
     main#home h1 {
-      margin-top: 20vh; }
+      margin-top: 20vh; 
+    }
 
 .about-info {
   display: grid;
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr); 
+  }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 3px solid; 
+  }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -218,7 +241,8 @@ main {
   .about-info .job {
     background: #21a867;
     padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; }
+    border-bottom: #eece1a 5px solid; 
+  }
 
 .projects {
   display: grid;
@@ -237,36 +261,62 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem; }
+  margin-top: 1rem; 
+}
+
   .boxes div {
     font-size: 2rem;
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-out; 
+  }
+
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
-      color: #000; }
+      background: #21a867;
+      color: #000; 
+    }
+
       .boxes div:hover span {
-        color: #000; }
+        color: #000; 
+      }
+
 
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.3rem; 
+}
+
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #eece1a;
-    color: #000; }
+    color: #000; 
+  }
+
+  #regbtn {
+    display: inline;
+  }
+
+  #downloadtext span{
+    display: none;
+  }
+
+  #downloadtext:hover span {
+    display: inline;
+    content: '(careful! This is an exe download)';
+  }
 
 .btn-dark {
   background: black;
-  color: #fff; }
+  color: #fff; 
+}
 
 .btn-light {
   background: #c4c4c4;
-  color: #333; }
+  color: #333; 
+}
 
 #main-footer {
   text-align: center;
@@ -274,7 +324,12 @@ main {
   margin-top: 11px;
   background: #21a867;
   color: #fff;
-  height: 60px; }
+  height: 69px; 
+}
+
+  #footercontact {
+    padding-left: 5px;
+  }
 
 @media screen and (min-width: 1171px) {
   .projects {
