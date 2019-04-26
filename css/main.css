@@ -12,7 +12,7 @@
     height: 3px;
     margin: 0 0 5px 0;
     background: #fff;
-    transition: all 0.5s ease-out; 
+    transition: all 0.s ease-out; 
   }
 
   .btn-line:hover {
@@ -157,7 +157,8 @@ body {
       height: 100%;
       z-index: -1;
       /*background: rgba(68, 68, 68, 0.9); *TESTING OUT OTHER SHADES* */
-      background: #21a867;
+      /*background: #21a867;*/
+      background-image: linear-gradient(-240deg, #21a867 , #494949)
     }
 
 h1,
@@ -174,7 +175,12 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: #49494980; 
+  }
+
+  #sm-about {
+    font-size: 21px;
+  }
 
 a {
   color: #fff;
@@ -223,6 +229,16 @@ main {
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); 
   }
+
+
+.activehoverlink:hover {
+ cursor: pointer;
+ color: #eece1a;
+ transition: 0.2s ease-in;
+ background-image: #21a867 url(img/media.png) right;
+}
+
+
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
@@ -247,14 +263,76 @@ main {
 .projects {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr); 
+}
+
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid; 
+  }
+
+  .txtinpic {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 97%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #c4c4c4;
+  }
+
+  .txtinpic:hover .overlay {
+    opacity: 1;
+  }
+
     .projects img:hover {
-      opacity: 0.5;
+      opacity: 0.3;
       border-color: #eece1a;
-      transition: all 0.5s ease-out; }
+      transition: all 0.5s ease-out; 
+    }
+
+    .txtinpic img:hover {
+      opacity: 0.3;
+      border-color: #eece1a;
+      transition: all 0.5s ease-out;
+    }
+
+    .text {
+      color: #000000;
+      font-size: 15px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .cshrp {
+      color: #318214; 
+    }
+
+    .js {
+      color: #f8fc0c;
+    }
+
+    .html {
+      color: #fc380c;
+    }
+
+    .css {
+      color: #670087;
+    }
 
 .boxes {
   display: flex;
@@ -292,7 +370,7 @@ main {
 
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #eece1a;
-    color: #000; 
+    color: #000;
   }
 
   #regbtn {
@@ -303,10 +381,9 @@ main {
     display: none;
   }
 
-  #downloadtext:hover span {
-    display: inline;
-    content: '(careful! This is an exe download)';
-  }
+.exetext {
+  color: #ff3f00;
+}
 
 .btn-dark {
   background: black;
@@ -331,13 +408,13 @@ main {
     padding-left: 5px;
   }
   
-  i {
+  #footeri {
     margin: 0;
     color: #000000;
     padding-right: 15px;
   }
   
-  i:hover {
+  #footeri:hover {
     color: #5d5e60; 
   }
   
@@ -348,7 +425,7 @@ main {
     margin-top: 183px;
     padding-top: 5px;
     padding-bottom: 7px;
-    background-image: linear-gradient(30deg, #21a867 , #eece1a)
+    background-image: linear-gradient(-300deg, #21a867 , #eece1a)
   }
   
   #mainfooter {
