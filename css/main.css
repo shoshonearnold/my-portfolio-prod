@@ -419,7 +419,8 @@ main {
   }
   
   #footeri:hover {
-    color: #5d5e60; 
+    color: #21a867; 
+    transition: 0.2s ease-in;
   }
   
   
@@ -429,11 +430,11 @@ main {
     margin-top: 183px;
     padding-top: 5px;
     padding-bottom: 7px;
-    background-image: linear-gradient(-300deg, #21a867 , #eece1a)
+    color: #ffffff
   }
   
   #mainfooter {
-    color: #000000;
+    color: #ffffff;
   }
 
 @media screen and (min-width: 1171px) {
