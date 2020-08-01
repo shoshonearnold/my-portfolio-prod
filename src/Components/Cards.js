@@ -1,11 +1,10 @@
 import React from 'react'
-import CodeBlocks from './CodeBlocks'
 import img from '../Components/img/NumberGuesser.png'
 import img1 from '../Components/img/CoffeeFinder.png'
 import img2 from '../Components/img/ExpenseTracker.png'
 import img3 from '../Components/img/BookMarker.png'
 import img4 from '../Components/img/GitHubFinder.png'
-import img5 from '../Components/img/blockimgs/numberguesserblock.png'
+import zip from '../Components/downloads/number-genie-master.zip'
 import '../Styles/ComponentStyles/ProjectItem.css'
 
 const cardStyle = {
@@ -20,7 +19,7 @@ const cards = [
                           </div>,
             cardImage: <img src={img} alt="Project" id="image"/>,
             cardView: <a 
-                        href="number-genie-master.zip" 
+                        href={zip} 
                         className="btn-light"  
                         download><i className="fas fa-eye" style={cardStyle}></i> 
                         Project (.zip)

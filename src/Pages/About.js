@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import '../Styles/PageStyles/About.css'
 import Footer from '../Components/Footer'
 import BacktoTopButton from '../Components/BacktoTopButton'
+import pdf from '../Components/downloads/Shoshone Arnold Resume 2019.pdf'
 
 
 
@@ -55,7 +56,7 @@ const About = () => {
                             </div>
                             <div>
                                 <span className="text-secondary"></span> 
-                                <a href="downloads/Shoshone Arnold Resume 2019.pdf" download>
+                                <a href={pdf} download>
                                 <i className="fas fa-download"></i> Download CV</a>
                             </div>
                         </div>
