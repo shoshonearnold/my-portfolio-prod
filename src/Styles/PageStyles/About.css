@@ -1,0 +1,195 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+#about {
+  padding: 4rem;
+  min-height: calc(100vh - 60px);
+}
+
+#about h1 {
+  margin-top: .5vh;
+}
+
+h1.lg-heading, h2.lg-heading, h3.lg-heading {
+  font-size: 6rem;
+}
+
+h1.sm-heading, h2.sm-heading, h3.sm-heading {
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  background: #49494980;
+}
+
+.sm-heading-about {
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  background: #49494980;
+  width: 25%;
+}
+
+.text-secondary {
+  color: #eece1a;
+}
+
+.about-info {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  margin: auto;
+}
+
+.about-info .bio1 {
+  font-size: 1rem;
+}
+
+.about-info .bio2 {
+  font-size: 1rem;
+}
+
+.lang-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lang-icons div {
+  margin: 6px 31px 2px 0px;
+}
+
+.about-info .bio3 {
+  font-size: 1rem;
+}
+
+.about-info .job {
+  background: #21a867;
+  padding: 0.5rem;
+  border-bottom: #eece1a 5px solid;
+}
+
+.activehoverlink:hover {
+  cursor: pointer;
+  color: #21a867;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  background-image: #21a867;
+}
+
+#viewport1 {
+  float: right;
+  margin-right: 12em;
+  margin-top: -7.7em;
+  margin-bottom: 10em;
+  color: black;
+  background-color: #ffffff;
+  padding: 1em;
+  font-size: large;
+  font-weight: 600;
+  width: 33%;
+  border: 2px solid #ffffff;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 8px 0 #252525;
+          box-shadow: 0 4px 8px 0 #252525;
+}
+
+#viewport1:hover {
+  padding: 1.04em;
+  border: 2px solid #24f09162;
+  -webkit-box-shadow: 4px 6px 16px 0 #ffed4f;
+          box-shadow: 4px 6px 16px 0 #ffed4f;
+  -webkit-transition: ease-in .2s;
+  transition: ease-in .2s;
+}
+
+#viewport2 {
+  color: black;
+  background-color: #ffffff;
+  padding: 1em;
+  margin-top: 6em;
+  margin-bottom: 10em;
+  font-size: large;
+  font-weight: 600;
+  width: 43%;
+  border: 2px solid #ffffff;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 8px 0 #252525;
+          box-shadow: 0 4px 8px 0 #252525;
+}
+
+#viewport2:hover {
+  padding: 1.04em;
+  border: 2px solid #24f09162;
+  -webkit-box-shadow: 4px 6px 16px 0 #ffed4f;
+          box-shadow: 4px 6px 16px 0 #ffed4f;
+  -webkit-transition: ease-in .2s;
+  transition: ease-in .2s;
+}
+
+#viewport3 {
+  float: right;
+  margin-right: 9em;
+  color: black;
+  background-color: #ffffff;
+  padding: 1em;
+  font-size: large;
+  font-weight: 600;
+  width: 35%;
+  border: 2px solid #ffffff;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 8px 0 #252525;
+          box-shadow: 0 4px 8px 0 #252525;
+}
+
+#viewport3:hover {
+  padding: 1.04em;
+  border: 2px solid #24f09162;
+  -webkit-box-shadow: 4px 6px 16px 0 #ffed4f;
+          box-shadow: 4px 6px 16px 0 #ffed4f;
+  -webkit-transition: ease-in .2s;
+  transition: ease-in .2s;
+}
+
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.boxesAbout div {
+  font-size: 1.5rem;
+  text-align: center;
+  border: 3px #fff solid;
+  padding: 1.5rem 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  border-radius: 16px;
+  background-color: #252525;
+}
+
+.boxesAbout div:hover {
+  cursor: pointer;
+  padding: 0.5em 1em;
+  background: #21a867;
+  color: #000;
+}
+
+.boxes div:hover span {
+  cursor: pointer;
+  color: #000;
+}
+/*# sourceMappingURL=About.css.map */

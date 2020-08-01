@@ -1,0 +1,154 @@
+button.btn-darker {
+  border-style: none;
+  display: block;
+  padding: .5rem 1rem .5rem 1rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 4px 8px 0 #252525;
+          box-shadow: 0 4px 8px 0 #252525;
+}
+
+.btntext {
+  margin-right: 10em;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.projects, .item {
+  text-align: center;
+  display: inline-block;
+}
+
+.btn, .btn-dark, .btn-light {
+  display: block;
+  padding: .5rem 1rem .5rem 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 4px 8px 0 #252525;
+          box-shadow: 0 4px 8px 0 #252525;
+}
+
+.btn-dark {
+  background: #c4c4c4;
+  color: #fff;
+}
+
+.btn-darker {
+  background: #1e2022;
+  color: #fff;
+}
+
+.btn-darker:hover {
+  cursor: pointer;
+}
+
+.btn-light {
+  background: #c9d6df;
+  color: #333;
+}
+
+.btn:hover, .btn-dark:hover, .btn-light:hover {
+  -webkit-box-shadow: 4px 6px 14px 0 #8a8a8a;
+          box-shadow: 4px 6px 14px 0 #8a8a8a;
+  -webkit-transition: ease-in .2s;
+  transition: ease-in .2s;
+}
+
+.blockExtends {
+  background-color: #000000;
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 0;
+  border-radius: 8px;
+  border: solid 2px #282c34;
+  border-bottom: none;
+  width: 17.353em;
+  height: 3em;
+}
+
+.langCSS {
+  color: #086300;
+  margin-top: 2em;
+  margin-left: 7.7em;
+}
+
+.langCSS1 {
+  color: #61dafb;
+  margin-top: 2em;
+  margin-left: 45px;
+}
+
+.langCSS2 {
+  color: #4c6ef5;
+  margin-top: 2em;
+  margin-left: 20px;
+}
+
+.langCSS3 {
+  color: #e34c26;
+  margin-top: 2em;
+  margin-left: 20px;
+}
+
+.langCSS4 {
+  color: #f1e05a;
+  margin-top: 2em;
+  margin-left: 45px;
+}
+
+#alertText {
+  color: #ff0000;
+}
+
+#holder {
+  color: #ffffff;
+  margin: 7px 0 0 0;
+  font-size: 12px;
+  display: inline;
+}
+
+.codeBlock1 {
+  background-color: #282c34;
+  text-align: center;
+  margin-top: -1em;
+  border: solid 2px #282c34;
+  border-radius: 8px;
+  height: 300px;
+  width: 17.4em;
+}
+
+#holder1 {
+  font-size: 8.5px;
+  text-align: left;
+  margin-left: 1em;
+}
+
+.block {
+  display: inline-block;
+}
+
+.allCodeBlocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=ProjectItem.css.map */
