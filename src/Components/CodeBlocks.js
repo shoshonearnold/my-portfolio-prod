@@ -129,7 +129,7 @@ export const GlobalProvider = ({ children }) => {
         target="_blank" 
         href="'+ addhttp(url) +'"> Visit</a> ' +
     ' <a 
-        onclick="deleteBookmark(\''+url+'\')" 
+        onclick="deleteBookmark(''+url+'')" 
         class="btn btn-danger" 
         href="#">Delete</a> ' +
     '</h3>'+

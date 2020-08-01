@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../Styles/ComponentStyles/Navbar.css'
-import { NavLink, Router } from 'react-router-dom';
-import Switch from './Switch';
+import { NavLink } from 'react-router-dom';
+
 
 class Navbar extends Component {
     state = {

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/ComponentStyles/Footer.css'
-import BacktoTopButton from './BacktoTopButton'
+
 
 
 

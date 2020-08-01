@@ -5,10 +5,6 @@ const scroller = () => {
     window.scrollTo(0, 0)
 }
 
-const svgStyle = {
-    fontsize: '400px'
-}
-
 const BacktoTopButton = () => {
     return (
         <div className="top-btn">

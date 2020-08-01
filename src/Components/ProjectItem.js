@@ -1,6 +1,6 @@
 import React from 'react'
 import cards from './Cards'
-import CodeBlocks from './CodeBlocks'
+
 import '../Styles/ComponentStyles/ProjectItem.css'
 
 
