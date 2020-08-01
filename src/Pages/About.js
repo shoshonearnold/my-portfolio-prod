@@ -51,7 +51,8 @@ const About = () => {
                         <div className="boxesAbout">
                             <div>
                                 <span className="text-secondary"></span> 
-                                <a href="https://compassionate-shirley-5c1ba2.netlify.com" target="_blank">
+                                <a href="https://compassionate-shirley-5c1ba2.netlify.com" 
+                                target="_blank" rel="noopener noreferrer">
                                 <i className="fas fa-eye"></i> View Professional CV</a>
                             </div>
                             <div>

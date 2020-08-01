@@ -27,7 +27,7 @@ const cards = [
             cardGitHub: <a 
                         href="https://github.com/shoshonearnold/number-genie" 
                         className="btn-dark" 
-                        target="_blank"><i className="fab fa-github"style={cardStyle}></i> 
+                        target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
                     </a>,
         },
@@ -47,7 +47,7 @@ const cards = [
             cardGitHub: <a 
                         href="https://github.com/shoshonearnold/reactcoffeefinder" 
                         className="btn-dark" 
-                        target="_blank"><i className="fab fa-github"style={cardStyle}></i> 
+                        target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
                     </a>,
         },
@@ -67,7 +67,7 @@ const cards = [
             cardGitHub: <a 
                         href="https://github.com/shoshonearnold/expense_tracker" 
                         className="btn-dark" 
-                        target="_blank"><i className="fab fa-github"style={cardStyle}></i> 
+                        target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
                     </a>,
         },
@@ -87,7 +87,7 @@ const cards = [
             cardGitHub: <a 
                         href="https://github.com/shoshonearnold/shoshone-s-Bookmarker" 
                         className="btn-dark" 
-                        target="_blank"><i className="fab fa-github"style={cardStyle}></i> 
+                        target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
                     </a>,
         },
@@ -107,7 +107,7 @@ const cards = [
             cardGitHub: <a 
                         href="https://github.com/shoshonearnold/shoshone-s-Bookmarker" 
                         className="btn-dark" 
-                        target="_blank"><i className="fab fa-github"style={cardStyle}></i> 
+                        target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
                     </a>,
         }
