@@ -99,13 +99,13 @@ const cards = [
                           </div>,
             cardImage: <img src={img4} alt="Project" id="image"/>,
             cardView: <a 
-                        href="https://pensive-yalow-36e195.netlify.app/" 
+                        href="https://silly-heisenberg-d7dd87.netlify.app/" 
                         className="btn-light-cards"  
                         download><i className="fas fa-eye" style={cardStyle}></i> 
                         View Live 
                     </a>,
             cardGitHub: <a 
-                        href="https://github.com/shoshonearnold/shoshone-s-Bookmarker" 
+                        href="https://github.com/shoshonearnold/github-finder" 
                         className="btn-dark-cards" 
                         target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
