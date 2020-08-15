@@ -1,64 +1,9 @@
-button.btn-darker {
-    border-style: none;
-    display: block;
-    padding: .5rem 1rem .5rem 1rem;
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 #252525; 
-}
-
-.btntext {
-    margin-right: 10em;
-    font-size: 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+/*ProjectItem*/
 
 .container {
     display: inline-flex;
     margin-right: 10px;
     margin-left: 20px;
-} 
-
-
-.projects, .item {
-    text-align: center;
-    display: inline-block;     
-}
-
-.btn, .btn-dark, .btn-light {
-    display: block;
-    padding: .5rem 1rem .5rem 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 #252525; 
-}
-
-.btn-dark {
-    background: #c4c4c4;
-    color: #fff;
-     
-    }
-
-.btn-darker {
-    background: #1e2022;
-    color: #fff;
-}   
-
-.btn-darker:hover {
-    cursor: pointer;
-}
-    
-    .btn-light {
-    background: #c9d6df;
-    color: #333; 
-    }
-
-.btn:hover, .btn-dark:hover, .btn-light:hover {
-    box-shadow: 4px 6px 14px 0 #8a8a8a;
-    transition: ease-in .2s;
 }
 
 .blockExtends {
@@ -71,6 +16,11 @@ button.btn-darker {
     border-bottom: none;
     width: 17.353em;
     height: 3em;
+}
+
+#holder {
+    font-size: 12px; 
+    display: inline;
 }
 
 .langCSS {
@@ -107,14 +57,54 @@ button.btn-darker {
     color: #ff0000;
 }
 
-#holder {
-    color: #ffffff;
-    margin: 7px 0 0 0;
-    font-size: 12px; 
-    display: inline;
+button.btn-darker {
+    border-style: none;
+    display: block;
+    padding: .5rem 1rem .5rem 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 #252525; 
 }
 
-.codeBlock1 {
+.btn-dark-cards, .btn-light-cards {
+    display: block;
+    padding: .5rem 1rem .5rem 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 #252525; 
+}
+
+.btn-dark-cards {
+    background: #555f66;
+    color: #fff;
+     
+    }
+
+.btn-darker {
+    background: #1e2022;
+    color: #fff;
+}   
+
+.btn-darker:hover {
+    cursor: pointer;
+}
+    
+.btn-light-cards {
+    background: #c9d6df;
+    color: #333; 
+}
+
+.btn-dark-cards:hover, .btn-light-cards:hover {
+    box-shadow: 4px 6px 14px 0 #8a8a8a;
+    transition: ease-in .2s;
+    background: #eece1a;
+    color: #000;
+}
+
+/*.codeBlock1 {
     background-color: #282c34;
     text-align: center;
     margin-top: -1em;
@@ -122,25 +112,23 @@ button.btn-darker {
     border-radius: 8px;
     height: 300px;
     width: 17.4em;
- 
-}
+}*/
 
-#holder1 {
+/*#holder1 {
 font-size: 8.5px;
 text-align: left;
 margin-left: 1em;
-}
+}*/
 
-.block {
+/*.block {
     display: inline-block;
-}
+}*/
 
-.allCodeBlocks {
+/*.allCodeBlocks {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-
-}
+}*/
 
 

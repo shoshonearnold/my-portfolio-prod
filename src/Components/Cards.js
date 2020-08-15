@@ -20,13 +20,13 @@ const cards = [
             cardImage: <img src={img} alt="Project" id="image"/>,
             cardView: <a 
                         href={zip} 
-                        className="btn-light"  
+                        className="btn-light-cards"  
                         download><i className="fas fa-eye" style={cardStyle}></i> 
                         Project (.zip)
                     </a>,
             cardGitHub: <a 
                         href="https://github.com/shoshonearnold/number-genie" 
-                        className="btn-dark" 
+                        className="btn-dark-cards" 
                         target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
                     </a>,
@@ -40,13 +40,13 @@ const cards = [
             cardImage: <img src={img1} alt="Project" id="image"/>,
             cardView: <a 
                         href="https://adoring-shannon-21672c.netlify.com/" 
-                        className="btn-light"  
+                        className="btn-light-cards"  
                         download><i className="fas fa-eye" style={cardStyle}></i> 
                         View Live 
                     </a>,
             cardGitHub: <a 
                         href="https://github.com/shoshonearnold/reactcoffeefinder" 
-                        className="btn-dark" 
+                        className="btn-dark-cards" 
                         target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
                     </a>,
@@ -60,13 +60,13 @@ const cards = [
             cardImage:<img src={img2} alt="Project" id="image"/>,
             cardView: <a 
                         href="https://vigorous-mcnulty-9df34f.netlify.app/" 
-                        className="btn-light"  
+                        className="btn-light-cards"  
                         download><i className="fas fa-eye" style={cardStyle}></i> 
                         View Live 
                     </a>,
             cardGitHub: <a 
                         href="https://github.com/shoshonearnold/expense_tracker" 
-                        className="btn-dark" 
+                        className="btn-dark-cards" 
                         target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
                     </a>,
@@ -80,13 +80,13 @@ const cards = [
             cardImage: <img src={img3} alt="Project" id="image"/>,
             cardView: <a 
                         href="https://pensive-yalow-36e195.netlify.app/" 
-                        className="btn-light"  
+                        className="btn-light-cards"  
                         download><i className="fas fa-eye" style={cardStyle}></i> 
                         View Live 
                     </a>,
             cardGitHub: <a 
                         href="https://github.com/shoshonearnold/shoshone-s-Bookmarker" 
-                        className="btn-dark" 
+                        className="btn-dark-cards" 
                         target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
                     </a>,
@@ -100,13 +100,13 @@ const cards = [
             cardImage: <img src={img4} alt="Project" id="image"/>,
             cardView: <a 
                         href="https://pensive-yalow-36e195.netlify.app/" 
-                        className="btn-light"  
+                        className="btn-light-cards"  
                         download><i className="fas fa-eye" style={cardStyle}></i> 
                         View Live 
                     </a>,
             cardGitHub: <a 
                         href="https://github.com/shoshonearnold/shoshone-s-Bookmarker" 
-                        className="btn-dark" 
+                        className="btn-dark-cards" 
                         target="_blank" rel="noopener noreferrer"><i className="fab fa-github"style={cardStyle}></i> 
                         Github
                     </a>,

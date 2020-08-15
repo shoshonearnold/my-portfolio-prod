@@ -1,17 +1,13 @@
+/*About*/
 h1,
 h2,
 h3 {
-  margin: 0;
   font-weight: 400;
 }
 
 #about {
   padding: 4rem;
   min-height: calc(100vh - 60px);
-}
-
-#about h1 {
-  margin-top: .5vh;
 }
 
 h1.lg-heading, h2.lg-heading, h3.lg-heading {
@@ -69,14 +65,6 @@ h1.sm-heading, h2.sm-heading, h3.sm-heading {
   background: #21a867;
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid;
-}
-
-.activehoverlink:hover {
-  cursor: pointer;
-  color: #21a867;
-  -webkit-transition: 0.2s ease-in;
-  transition: 0.2s ease-in;
-  background-image: #21a867;
 }
 
 #viewport1 {
@@ -153,25 +141,9 @@ h1.sm-heading, h2.sm-heading, h3.sm-heading {
   transition: ease-in .2s;
 }
 
-.boxes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 1rem;
-}
-
 .boxesAbout div {
   font-size: 1.5rem;
   text-align: center;
-  border: 3px #fff solid;
   padding: 1.5rem 2.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;

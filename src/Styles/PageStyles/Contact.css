@@ -1,3 +1,4 @@
+/*Contact*/
 h1,
 h2,
 h3 {
@@ -40,13 +41,6 @@ h3.sm-heading-contact {
   color: #eece1a;
 }
 
-.about-info {
-  display: -ms-grid;
-  display: grid;
-  grid-gap: 30px;
-  margin: auto;
-}
-
 .boxes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,10 +56,9 @@ h3.sm-heading-contact {
 }
 
 .boxes div {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border: 3px #fff solid;
   padding: 1.5rem 2.5rem;
-  margin-bottom: 3rem;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   border-radius: 16px;
@@ -75,47 +68,5 @@ h3.sm-heading-contact {
   padding: 0.5rem 1.5rem;
   background: #21a867;
   color: #000;
-}
-
-.boxes div:hover span {
-  color: #000;
-}
-
-.btn, .btn-dark, .btn-light {
-  display: block;
-  padding: 0.5rem 1rem;
-  border: 0;
-  margin-bottom: 0.3rem;
-}
-
-.btn:hover, .btn-dark:hover, .btn-light:hover, .btn-darker:hover {
-  -webkit-box-shadow: 4px 6px 14px 0 #8a8a8a;
-          box-shadow: 4px 6px 14px 0 #8a8a8a;
-  -webkit-transition: ease-in .2s;
-  transition: ease-in .2s;
-  background: #eece1a;
-  color: #000;
-}
-
-#regbtn {
-  display: inline;
-}
-
-#downloadtext span {
-  display: none;
-}
-
-.exetext {
-  color: #ff3f00;
-}
-
-.btn-dark {
-  background: #555f66;
-  color: #fff;
-}
-
-.btn-light {
-  background: #c3cbd1;
-  color: #333;
 }
 /*# sourceMappingURL=Contact.css.map */
