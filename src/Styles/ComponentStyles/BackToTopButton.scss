@@ -21,3 +21,45 @@
 #arrw {
     font-size: 200%;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .top-btn {
+        float: right;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .btn-style {
+        padding: 1.2rem 1.2rem;
+        border-radius: 50%;
+        border: none;
+        margin: 10rem 1rem 1rem 1rem;
+    }
+    .btn-style:hover {
+        cursor: pointer;
+        background-color: #eece1a;
+        transition: ease-in .2s;
+    }
+    #arrw {
+        font-size: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

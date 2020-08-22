@@ -122,10 +122,6 @@
           transform: translate3d(0, 0, 0);
 }
 
-.menu .nav-item.current > a {
-  color: #eece1a;
-}
-
 .menu .nav-link {
   background-color: #21a867;
   border: none;
@@ -165,4 +161,50 @@
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .menu-branding .portrait {
+    width: 120px;
+    height: 120px;
+    background: #eece1a;
+    border-radius: 50%;
+    border: solid 3px #eece1a;
+  }
+  .menu .nav-link {
+    font-size: 12px;
+  }
+  .menu-btn .btn-line {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 20px;
+    height: 2px;
+    margin: 0 0 3px 0;
+    background: #fff;
+    -webkit-transition: all 0s ease-out;
+    transition: all 0s ease-out;
+  }
+  .menu-btn.close .btn-line:nth-child(1) {
+    -webkit-transform: rotate(45deg) translate(1px, 5px);
+            transform: rotate(45deg) translate(1px, 5px);
+  }
+  .menu-btn.close .btn-line:nth-child(3) {
+    -webkit-transform: rotate(-45deg) translate(3px, -6px);
+            transform: rotate(-45deg) translate(3px, -6px);
+  }
+  .menu-btn {
+    position: fixed;
+    z-index: 3;
+    right: 20px;
+    top: 25px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=Navbar.css.map */

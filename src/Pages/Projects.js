@@ -10,7 +10,7 @@ const Projects = () => {
         <div>
             <Navbar />
             <div className="project">
-                <h1 className="lg-heading">My<span className="text-secondary"> Work</span></h1>
+                <h1 className="lg-heading-projects">My<span className="text-secondary"> Work</span></h1>
                 <h3 className="sm-heading-projects">Check out some of my projects! </h3>
                 <ProjectItem />
             </div>

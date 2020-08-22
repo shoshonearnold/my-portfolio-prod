@@ -1,9 +1,9 @@
-## V 1.1.1 - CSS Reduction Update
+## V 1.1.2 - Responsive Update - <600px
 What's new?
 
 ## CSS & SCSS Files:
-    - deleted unused/unnesseary CSS and SCSS blocks from previous builds
-    - fixed CSS hierarchy; moved elements found in multiple styling files to their correct domain
+    - added responsive web SCSS/CSS code for viewing webpages on small/medium/large phones
+    - fixed minor CSS hierachy bugs
 
      
  

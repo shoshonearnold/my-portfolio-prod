@@ -9,13 +9,12 @@ import pdf from '../Components/downloads/Shoshone Arnold Resume 2019.pdf'
 
 const About = () => {
     return (
-        <div>
+        <div className="aboutPage">
             <Navbar />
                 <div id="about"> 
-                    <h1 className="lg-heading">About<span className="text-secondary"> Me</span></h1>
+                    <h1 className="lg-heading-about">About<span className="text-secondary"> Me</span></h1>
                     <h2 className="sm-heading-about">Let me tell you a few things...</h2>
                 <div className="about-info">
-                <div className="bio1">
                     <p id="viewport1">
                         I'm a Software Engineer obessesed with creating quality programs and products.
                         I got my start in development through quality assurance and software testing.
@@ -30,7 +29,6 @@ const About = () => {
                             <div><i class="fab fa-python fa-2x"></i></div>
                         </div>  
                     </p>
-                </div>
                 <div className="bio2">    
                     <p id="viewport2">
                         I gained invaluable experience working alongside developers, 

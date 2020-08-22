@@ -72,4 +72,32 @@ main .icons a:hover {
 main#home h1 {
   margin-top: 20vh;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .homePage {
+    overflow: hidden;
+  }
+  .RWD-home {
+    text-align: center;
+    font-size: 10px;
+  }
+  h2.sm-headinghome {
+    text-align: center;
+    width: auto;
+  }
+  main#home h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .icons a {
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=Home.css.map */

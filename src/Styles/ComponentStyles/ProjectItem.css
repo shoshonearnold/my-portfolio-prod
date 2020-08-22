@@ -131,4 +131,56 @@ margin-left: 1em;
     flex-direction: row;
     flex-wrap: wrap;
 }*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    display: block;
+    margin-left: -10px;
+  }
+  .blockExtends {
+    background-color: #000000;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 0;
+    border-radius: 8px;
+    border: solid 2px #282c34;
+    border-bottom: none;
+    width: 207px;
+    height: 3em;
+  }
+  .langCSS {
+    color: #086300;
+    margin-top: 2em;
+    margin-left: 5.7em;
+  }
+  .langCSS1 {
+    color: #61dafb;
+    margin-top: 2em;
+    margin-left: 15px;
+  }
+  .langCSS4 {
+    color: #f1e05a;
+    margin-top: 2em;
+    margin-left: 16px;
+  }
+  .btn-light-cards {
+    background: #c9d6df;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    width: 179px;
+  }
+  .btn-dark-cards {
+    background: #555f66;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    width: 179px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=ProjectItem.css.map */
