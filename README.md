@@ -1,4 +1,4 @@
-## V 1.1.3 - Responsive Component Update - <600px
+## V 1.1.3 - Responsive Component Update
 What's new?
 
 ## CSS & SCSS Files:
