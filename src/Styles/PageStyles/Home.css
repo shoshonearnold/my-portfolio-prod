@@ -97,6 +97,23 @@ main#home h1 {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .homePage {
+    overflow: hidden;
+  }
+  h2.sm-headinghome {
+    width: 425px;
+    font-size: 20px;
+  }
+  main#home h1 {
+    font-size: 60px;
+  }
+  .icons a {
+    text-align: center;
+    margin: 10px;
+  }
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */

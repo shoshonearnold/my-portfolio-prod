@@ -32,7 +32,7 @@
         padding: 1.2rem 1.2rem;
         border-radius: 50%;
         border: none;
-        margin: 10rem 1rem 1rem 1rem;
+        margin: 10rem 2rem 1rem 1rem;
     }
     .btn-style:hover {
         cursor: pointer;
@@ -46,20 +46,110 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    .top-btn {
+        float: right;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .btn-style {
+        padding: 1.5rem 1.5rem;
+        border-radius: 50%;
+        border: none;
+        margin: 10rem 1rem 1rem 1rem;
+    }
+    .btn-style:hover {
+        cursor: pointer;
+        background-color: #eece1a;
+        transition: ease-in .2s;
+    }
+    #arrw {
+        font-size: 100%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    .top-btn {
+        float: right;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .btn-style {
+        padding: 1.6rem 1.6rem;
+        border-radius: 50%;
+        border: none;
+        margin: 10rem 6rem 1rem 1rem;
+    }
+    .btn-style:hover {
+        cursor: pointer;
+        background-color: #eece1a;
+        transition: ease-in .2s;
+    }
+    #arrw {
+        font-size: 120%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    .top-btn {
+        float: right;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .btn-style {
+        padding: 1.7rem 1.7rem;
+        border-radius: 50%;
+        border: none;
+        margin: 10rem 6rem 1rem 1rem;
+    }
+    .btn-style:hover {
+        cursor: pointer;
+        background-color: #eece1a;
+        transition: ease-in .2s;
+    }
+    #arrw {
+        font-size: 130%;
+    }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1440px and up) */
 @media only screen and (min-width: 1200px) {
+    .top-btn {
+        float: right;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .btn-style {
+        padding: 1.8rem 1.8rem;
+        border-radius: 50%;
+        border: none;
+        margin: 10rem 9rem 1rem 1rem;
+    }
+    .btn-style:hover {
+        cursor: pointer;
+        background-color: #eece1a;
+        transition: ease-in .2s;
+    }
+    #arrw {
+        font-size: 160%;
+    }
+}
 
+/* Extra large devices (large laptops and desktops, 2560px and up) */
+@media only screen and (min-width: 2560px) {
+    .top-btn {
+        float: right;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .btn-style {
+        padding: 2.5rem 2.5rem;
+        border-radius: 50%;
+        border: none;
+        margin: 10rem 11rem 1rem 1rem;
+    }
+    .btn-style:hover {
+        cursor: pointer;
+        background-color: #eece1a;
+        transition: ease-in .2s;
+    }
+    #arrw {
+        font-size: 210%;
+    }
 }
