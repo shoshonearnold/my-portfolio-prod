@@ -111,6 +111,6 @@ const cards = [
                         Github
                     </a>,
         }
-    ]
+]
 
 export default cards
