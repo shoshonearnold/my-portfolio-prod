@@ -2,13 +2,31 @@ import React from 'react'
 import '../Styles/ComponentStyles/Webiframe.css'
 
 
+const iframeStyle = {
+    width: '90%',
+    height: '800px',
+    marginTop: '2em',
+};
+
+const boxStyle = {
+    position: 'absolute',
+    width: '70%',
+    height: '40px',
+    background: 'black'
+};
+
 const Webiframe = () => {
     return (
         <div className="iframe-stuff">
-            <iframe src="https://sharp-nobel-410eed.netlify.app/" title="#" width="90%" height="800" style={{marginTop: 2 + 'em'}}></iframe>
-            <iframe src="https://silly-heisenberg-d7dd87.netlify.app/" title="#" width="90%" height="800" style={{marginTop: 2 + 'em'}}></iframe>
-            <iframe src="https://pensive-yalow-36e195.netlify.app/" title="#" width="90%" height="800" style={{marginTop: 2 + 'em'}}></iframe>
-            <iframe src="https://sleepy-archimedes-6be822.netlify.app/" title="#" width="90%" height="800" style={{marginTop: 2 + 'em'}}></iframe>
+            <div className="code-stuff" style={boxStyle}></div>
+            <iframe src="https://sharp-nobel-410eed.netlify.app/" title="#" style={iframeStyle}></iframe>
+            
+
+
+
+            {/*<iframe src="https://silly-heisenberg-d7dd87.netlify.app/" title="#" style={iframeStyle}></iframe>
+            <iframe src="https://pensive-yalow-36e195.netlify.app/" title="#" style={iframeStyle}></iframe>
+            <iframe src="https://sleepy-archimedes-6be822.netlify.app/" title="#" style={iframeStyle}></iframe>*/}
         </div>
 
         /*<div className="blockExtends">  use this stuff later!
