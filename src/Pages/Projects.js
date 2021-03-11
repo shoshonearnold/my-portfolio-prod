@@ -3,7 +3,6 @@ import '../Styles/PageStyles/Projects.css'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import Webiframe from '../Components/Webiframe'
-import ProjectItem from '../Components/ProjectItem'
 import BacktoTopButton from '../Components/BacktoTopButton'
 
 const Projects = () => {

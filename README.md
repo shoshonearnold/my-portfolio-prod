@@ -1,9 +1,29 @@
-## V 1.1.3 - Responsive Component Update
-What's new?
+# my-portfolio
+My website with a general overview of the skills I have!
 
-## CSS & SCSS Files:
-    - added SCSS/CSS code for viewing Components i.e Navbar, nav buttons, footer icons etc. on most screen resolutions and sizes
-    - added some responsive code for 2k and 4k screens
+## Release V 1.1.4 -  iframe update!
+html(s):
+```
+    - added <iframe> tags to showcase other apps i made in /projects.
+```
+
+scss/css:
+```
+    - Deleted unused and unnessesary css & scss pages for better runtime.
+```     
+js:
+```
+    - Removed unused and unnessesary js pages for better runtime.
+    - Removed imports.
+
+``` 
+
+## What to expect next?
+```
+    Working buttons to show recruiters specific code in /projects!
+    Responsive UI updates for mobile users!
+    More bugs to squash!
+```
 
      
  
