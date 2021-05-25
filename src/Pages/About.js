@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar'
 import '../Styles/PageStyles/About.css'
 import Footer from '../Components/Footer'
 import BacktoTopButton from '../Components/BacktoTopButton'
-import pdf from '../Components/downloads/Shoshone Arnold Resume 2019.pdf'
+import pdf from '../Components/downloads/Shoshone Arnold CV HQ.pdf'
 
 
 
