@@ -8,12 +8,12 @@ const iframeStyle = {
     marginTop: '2em',
 };
 
-const boxStyle = {
+/*const boxStyle = {
     position: 'absolute',
     width: '70%',
     height: '40px',
     background: 'black'
-};
+};*/
 
 const Webiframe = () => {
     return (
