@@ -18,15 +18,11 @@ const boxStyle = {
 const Webiframe = () => {
     return (
         <div className="iframe-stuff">
-            <div className="code-stuff" style={boxStyle}></div>
+            <iframe src="https://jolly-beaver-803a22.netlify.app/" title="#" style={iframeStyle}></iframe>
             <iframe src="https://sharp-nobel-410eed.netlify.app/" title="#" style={iframeStyle}></iframe>
-            
-
-
-
-            {/*<iframe src="https://silly-heisenberg-d7dd87.netlify.app/" title="#" style={iframeStyle}></iframe>
+            <iframe src="https://silly-heisenberg-d7dd87.netlify.app/" title="#" style={iframeStyle}></iframe>
             <iframe src="https://pensive-yalow-36e195.netlify.app/" title="#" style={iframeStyle}></iframe>
-            <iframe src="https://sleepy-archimedes-6be822.netlify.app/" title="#" style={iframeStyle}></iframe>*/}
+            <iframe src="https://sleepy-archimedes-6be822.netlify.app/" title="#" style={iframeStyle}></iframe>
         </div>
 
         /*<div className="blockExtends">  use this stuff later!
