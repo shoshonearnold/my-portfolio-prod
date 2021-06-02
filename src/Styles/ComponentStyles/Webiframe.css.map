@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,EAAE;CACd",
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,CAAC;CACb",
     "sources": [
         "Webiframe.scss"
     ],

@@ -50,6 +50,7 @@
 }
 
 .menu.show {
+  z-index: 2;
   visibility: visible;
 }
 

@@ -250,5 +250,68 @@ h1.sm-heading, h2.sm-heading, h3.sm-heading {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #viewport1 {
+    margin-top: 0em;
+    color: black;
+    background-color: #ffffff;
+    padding: 1em;
+    margin-bottom: 6em;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid #ffffff;
+    border-radius: 16px;
+    -webkit-box-shadow: 0 4px 8px 0 #252525;
+            box-shadow: 0 4px 8px 0 #252525;
+  }
+  #viewport2 {
+    margin-top: 25em;
+    color: black;
+    background-color: #ffffff;
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 600;
+    width: 26.8em;
+    border: 2px solid #ffffff;
+    border-radius: 16px;
+    -webkit-box-shadow: 0 4px 8px 0 #252525;
+            box-shadow: 0 4px 8px 0 #252525;
+  }
+  #viewport3 {
+    margin-top: -6em;
+    float: right;
+    color: black;
+    background-color: #ffffff;
+    font-size: 14px;
+    /*font-weight: 600;*/
+    width: 26.8em;
+    border: 2px solid #ffffff;
+    border-radius: 16px;
+    -webkit-box-shadow: 0 4px 8px 0 #252525;
+            box-shadow: 0 4px 8px 0 #252525;
+  }
+  .boxesAbout div {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    border-radius: 16px;
+    background-color: #252525;
+  }
+  .boxesAbout div:hover {
+    cursor: pointer;
+    padding: 0.5em 1em;
+    background: #21a867;
+    color: #000;
+  }
+  .boxes div:hover span {
+    cursor: pointer;
+    color: #000;
+  }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=About.css.map */
